@@ -2,10 +2,19 @@
 //
 
 #include <iostream>
-#include "window.h"
+#include "window.h";
 int main()
 {
-    std::cout << "Hello World!\n";
+	using namespace OSGE;
+	using namespace graphics;
+	Window window("Mat", 800, 600);
+
+	while (!window.closed()) {
+		window.update();
+	}
+	system("Pause");
+
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

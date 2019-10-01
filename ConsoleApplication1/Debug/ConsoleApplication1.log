@@ -1,2 +1,10 @@
 ﻿  Main.cpp
-  ConsoleApplication1.vcxproj -> C:\Users\mat2567\Documents\OSGM\OSGM\ConsoleApplication1\Debug\ConsoleApplication1.exe
+C:\Users\mat2567\Documents\OSGM\OSGM\ConsoleApplication1\Main.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+window.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "private: bool __thiscall OSGE::graphics::Window::init(void)" (?init@Window@graphics@OSGE@@AAE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function "public: __thiscall OSGE::graphics::Window::~Window(void)" (??1Window@graphics@OSGE@@QAE@XZ)
+window.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "private: bool __thiscall OSGE::graphics::Window::init(void)" (?init@Window@graphics@OSGE@@AAE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function "public: bool __thiscall OSGE::graphics::Window::closed(void)const " (?closed@Window@graphics@OSGE@@QBE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function "public: void __thiscall OSGE::graphics::Window::update(void)const " (?update@Window@graphics@OSGE@@QBEXXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "private: bool __thiscall OSGE::graphics::Window::init(void)" (?init@Window@graphics@OSGE@@AAE_NXZ)
+window.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function "public: void __thiscall OSGE::graphics::Window::update(void)const " (?update@Window@graphics@OSGE@@QBEXXZ)
+C:\Users\mat2567\Documents\OSGM\OSGM\ConsoleApplication1\Debug\ConsoleApplication1.exe : fatal error LNK1120: 7 unresolved externals
